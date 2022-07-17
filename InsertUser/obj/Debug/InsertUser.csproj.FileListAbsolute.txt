@@ -1,0 +1,8 @@
+D:\C#\InsertUser\InsertUser\bin\Debug\InsertUser.exe.config
+D:\C#\InsertUser\InsertUser\bin\Debug\InsertUser.exe
+D:\C#\InsertUser\InsertUser\bin\Debug\InsertUser.pdb
+D:\C#\InsertUser\InsertUser\obj\Debug\InsertUser.csproj.AssemblyReference.cache
+D:\C#\InsertUser\InsertUser\obj\Debug\InsertUser.csproj.SuggestedBindingRedirects.cache
+D:\C#\InsertUser\InsertUser\obj\Debug\InsertUser.csproj.CoreCompileInputs.cache
+D:\C#\InsertUser\InsertUser\obj\Debug\InsertUser.exe
+D:\C#\InsertUser\InsertUser\obj\Debug\InsertUser.pdb
