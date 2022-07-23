@@ -21,7 +21,22 @@ namespace InsertUser
     {
         static void Main(string[] args)
         {
+            GetCommand();
             Console.ReadKey();
+        }
+        static void GetCommand()
+        {
+            UserDataContext context = new UserDataContext();
+            Command command;
+            do
+            {
+                Console.Write("Введите команду: ");
+                string insertCommand = Console.ReadLine();
+                command = new Command(insertCommand);
+                context.HandleCommand(command);
+            }
+            while (command.command != CommandType.Stop);
+            Console.WriteLine("Программа завершена.");
         }
     }
 }

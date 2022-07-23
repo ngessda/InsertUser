@@ -9,26 +9,11 @@ namespace InsertUser
     public class User
     {
         public int id { get; set; }
-        public string name { get; }
-        public string surname { get; }
-        public string login { get; }
-        public string password { get; }
-        public User()
-        {
-            id++;
-            name = "None";
-            surname = "None";
-            login = "None";
-            password = "None";
-        }
-        public User(string name, string surname, string login, string password)
-        {
-            id++;
-            this.name = name;
-            this.surname = surname;
-            this.login = login;
-            this.password = password;
-        }
+        public string name { get; set; }
+        public string surname { get; set; }
+        public string login { get; set; }
+        public string password { get; set; }
+
         public override string ToString()
         {
             return "Name: " + name + 
