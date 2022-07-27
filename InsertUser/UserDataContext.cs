@@ -65,7 +65,7 @@ namespace InsertUser
             if(int.TryParse(Console.ReadLine(), out var _id))
             {
                 id = _id;
-                if (_users.Count > id)
+                if (_users.Count > id && id >= 0)
                 {
                     string name, surname, login, password;
                     var user = new User();
@@ -108,7 +108,7 @@ namespace InsertUser
             {
                 Console.WriteLine("Началась процедура удаления пользователя...");
                 id = _id;
-                if (_users.Count > id)
+                if (_users.Count > id && id >= 0) 
                 {
                     _users.RemoveAt(id);
                 }
@@ -131,7 +131,7 @@ namespace InsertUser
             if (int.TryParse(Console.ReadLine(), out var _id))
             {
                 id = _id;
-                if (_users.Count > id)
+                if (_users.Count > id && id >= 0)
                 {
                     Console.WriteLine(_users[id]);
                 }
